@@ -1,5 +1,6 @@
 # Build
 build/
+cmake-build-*/
 out/
 bin/
 obj/
@@ -14,6 +15,28 @@ obj/
 *.lib
 *.ppm
 
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
 # VS Code
 .vscode/
 !.vscode/extensions.json
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Debug
+gdb_history
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
